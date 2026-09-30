@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-image: url(https://images6.alphacoders.com/728/thumb-1920-728297.png);
+    background-size: cover;
+    background-position: center 3%;
+    color: white;
+    height: 100vh;
+}
+
+#card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    border: 1px solid black;
+    height: 650px;
+    width: 550px;
+    padding: 10px;
+    backdrop-filter: blur(8px);
+    background: transparent;
+    border-radius: 15px;
+    color: black;
+    color: white;
+}
+
+#card h1 {
+    margin-bottom: 70px;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 250px;
+    margin-bottom: 50px;
+}
+
+p {
+    background-color: rgb(157, 72, 237);
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    margin-top: 10px;
+}
+
+#links {
+   display: flex;
+   justify-content: space-around;
+   width: 75%;
+}
+
+a {
+    text-decoration: none;
+    background-color: rgb(95, 30, 155);
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 22px;
+    text-align: center;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+
+a:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px 1px rgba(97, 2, 145, 0.37);
+}
+
+
+#main-container h1 {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    background: transparent;
+    backdrop-filter: blur(5px);
+    width: 70px;
+    border-radius: 10px;
+    padding: 10px;
+}

@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #121212;
+    min-height: 100vh;
+    padding-top: 70px;
+}
+
+#spotify-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 200px;  
+    height: 50px;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+#main-card {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    margin: 0 auto;
+    height: 710px;
+    width: 388px;
+}
+
+#text-title {
+    font-size: 22px;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 0 40px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#email {
+    background-color: transparent;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+    width: 320px;
+    height: 30px;
+    color: white;
+    transition: 0.2s linear;
+}
+
+#email:hover {
+    border: 1px solid white;
+}
+
+.button-advance {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1ed760;
+    border-radius: 40px;
+    height: 48px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+
+.button-advance a {
+    text-decoration: none;
+    color: black;
+}
+
+.button-advance:hover {
+    background-color: #43df79;
+}
+
+.alternative-text {
+    padding: 20px;
+}
+
+.number-signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #b3b3b3;
+    border-radius: 30px;
+    padding: 20px;
+    width: 310px;
+    height: 20px;
+    margin-bottom: 10px;
+    transition: 0.2s linear;
+}
+
+.number-signup svg {
+    position: relative;
+    right: 30px;
+}
+
+.number-signup a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    transition: 0.2s linear;
+}
+
+.number-signup:hover {
+    border: 1px solid white;
+    transform: scale(1.05);
+}
+
+.google-signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #b3b3b3;
+    border-radius: 30px;
+    padding: 20px;
+    width: 310px;
+    height: 20px;
+    margin-bottom: 10px;
+    transition: 0.2s linear;
+}
+
+.google-signup a {
+    color: white;
+    text-decoration: none;
+}
+
+.google-signup svg {
+    position: relative;
+    right: 40px;
+    top: 3px;
+}
+
+.google-signup:hover {
+    border: 1px solid white;
+    transform: scale(1.05);
+}
+
+
+.apple-signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 30px;
+    padding: 20px;
+    width: 310px;
+    height: 20px;
+    transition: 0.2s linear;
+}
+
+.apple-signup a {
+    text-decoration: none;
+    color: white;
+}
+
+.apple-signup svg {
+    position: relative;
+    right: 52px;
+    top: 2px;
+}
+
+.apple-signup:hover {
+    border: 1px solid white;
+    transform: scale(1.05);
+}
+
+.final-content {
+    margin-top: 80px;
+    font-size: 15px;
+    color: #b3b3b3;
+}
+
+.final-content a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    margin-top: 15px;
+    transition: 0.2s linear;
+}
+
+.final-content a:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    color: #b3b3b3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
