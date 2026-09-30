@@ -1,7 +1,7 @@
 body {
     height: 100vh;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-image: url(https://images4.alphacoders.com/140/thumb-1920-1408431.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./assets/subaru.jpg");
     color: white;
     margin: 0;
     background-size: cover;
